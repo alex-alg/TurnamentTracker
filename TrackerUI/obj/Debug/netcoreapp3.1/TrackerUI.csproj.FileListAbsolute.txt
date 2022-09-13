@@ -1,0 +1,17 @@
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.exe
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.deps.json
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.runtimeconfig.json
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.runtimeconfig.dev.json
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.dll
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.pdb
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.csproj.AssemblyReference.cache
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.TurnamentViewerForm.resources
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.csproj.GenerateResource.cache
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.AssemblyInfoInputs.cache
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.AssemblyInfo.cs
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.csproj.CoreCompileInputs.cache
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.dll
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.pdb
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.genruntimeconfig.cache
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreateTurnamentForm.resources
