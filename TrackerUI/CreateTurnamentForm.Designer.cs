@@ -29,7 +29,7 @@ namespace TrackerUI
         /// </summary>
         private void InitializeComponent()
         {
-            this.headerLabel = new System.Windows.Forms.Label();
+            this.createTurnamentLabel = new System.Windows.Forms.Label();
             this.turnamentNameValue = new System.Windows.Forms.TextBox();
             this.turnamentNameLabel = new System.Windows.Forms.Label();
             this.entryFeeValue = new System.Windows.Forms.TextBox();
@@ -48,16 +48,16 @@ namespace TrackerUI
             this.createTurnamentButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // headerLabel
+            // createTurnamentLabel
             // 
-            this.headerLabel.AutoSize = true;
-            this.headerLabel.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.headerLabel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.headerLabel.Location = new System.Drawing.Point(32, 39);
-            this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(324, 50);
-            this.headerLabel.TabIndex = 1;
-            this.headerLabel.Text = "Create Turnament:";
+            this.createTurnamentLabel.AutoSize = true;
+            this.createTurnamentLabel.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.createTurnamentLabel.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.createTurnamentLabel.Location = new System.Drawing.Point(32, 39);
+            this.createTurnamentLabel.Name = "createTurnamentLabel";
+            this.createTurnamentLabel.Size = new System.Drawing.Size(324, 50);
+            this.createTurnamentLabel.TabIndex = 1;
+            this.createTurnamentLabel.Text = "Create Turnament:";
             // 
             // turnamentNameValue
             // 
@@ -266,7 +266,7 @@ namespace TrackerUI
             this.Controls.Add(this.entryFeeLabel);
             this.Controls.Add(this.turnamentNameValue);
             this.Controls.Add(this.turnamentNameLabel);
-            this.Controls.Add(this.headerLabel);
+            this.Controls.Add(this.createTurnamentLabel);
             this.Name = "CreateTurnamentForm";
             this.Text = "CreateTurnamentForm";
             this.ResumeLayout(false);
@@ -276,7 +276,7 @@ namespace TrackerUI
 
         #endregion
 
-        private System.Windows.Forms.Label headerLabel;
+        private System.Windows.Forms.Label createTurnamentLabel;
         private System.Windows.Forms.TextBox turnamentNameValue;
         private System.Windows.Forms.Label turnamentNameLabel;
         private System.Windows.Forms.TextBox entryFeeValue;
