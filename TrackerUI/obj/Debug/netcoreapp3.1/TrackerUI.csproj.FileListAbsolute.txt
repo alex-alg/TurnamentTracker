@@ -15,3 +15,6 @@ C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\Track
 C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.pdb
 C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.genruntimeconfig.cache
 C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreateTurnamentForm.resources
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreatePrizeForm.resources
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreateTeamForm.resources
+C:\dev\TurnamentTracker\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.TurnamentDashboardForm.resources
