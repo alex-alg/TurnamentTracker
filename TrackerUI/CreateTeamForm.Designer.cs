@@ -38,12 +38,14 @@ namespace TrackerUI
             this.addNewMember = new System.Windows.Forms.GroupBox();
             this.firstNameValue = new System.Windows.Forms.TextBox();
             this.firstNameLabel = new System.Windows.Forms.Label();
+            this.lastNameValue = new System.Windows.Forms.TextBox();
+            this.lastNameLabel = new System.Windows.Forms.Label();
             this.addNewMember.SuspendLayout();
             this.SuspendLayout();
             // 
             // teamNameValue
             // 
-            this.teamNameValue.Location = new System.Drawing.Point(12, 151);
+            this.teamNameValue.Location = new System.Drawing.Point(12, 112);
             this.teamNameValue.Name = "teamNameValue";
             this.teamNameValue.Size = new System.Drawing.Size(418, 35);
             this.teamNameValue.TabIndex = 13;
@@ -53,7 +55,7 @@ namespace TrackerUI
             this.teamNameLabel.AutoSize = true;
             this.teamNameLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.teamNameLabel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.teamNameLabel.Location = new System.Drawing.Point(12, 111);
+            this.teamNameLabel.Location = new System.Drawing.Point(12, 72);
             this.teamNameLabel.Name = "teamNameLabel";
             this.teamNameLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.teamNameLabel.Size = new System.Drawing.Size(160, 37);
@@ -65,7 +67,7 @@ namespace TrackerUI
             this.createTeamLabel.AutoSize = true;
             this.createTeamLabel.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.createTeamLabel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.createTeamLabel.Location = new System.Drawing.Point(12, 29);
+            this.createTeamLabel.Location = new System.Drawing.Point(12, 9);
             this.createTeamLabel.Name = "createTeamLabel";
             this.createTeamLabel.Size = new System.Drawing.Size(227, 50);
             this.createTeamLabel.TabIndex = 11;
@@ -79,7 +81,7 @@ namespace TrackerUI
             this.addMemberButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addMemberButton.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.addMemberButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
-            this.addMemberButton.Location = new System.Drawing.Point(12, 324);
+            this.addMemberButton.Location = new System.Drawing.Point(12, 285);
             this.addMemberButton.Name = "addMemberButton";
             this.addMemberButton.Size = new System.Drawing.Size(192, 44);
             this.addMemberButton.TabIndex = 19;
@@ -89,7 +91,7 @@ namespace TrackerUI
             // selectTeamMemberDropdown
             // 
             this.selectTeamMemberDropdown.FormattingEnabled = true;
-            this.selectTeamMemberDropdown.Location = new System.Drawing.Point(12, 257);
+            this.selectTeamMemberDropdown.Location = new System.Drawing.Point(12, 218);
             this.selectTeamMemberDropdown.Name = "selectTeamMemberDropdown";
             this.selectTeamMemberDropdown.Size = new System.Drawing.Size(418, 38);
             this.selectTeamMemberDropdown.TabIndex = 18;
@@ -99,7 +101,7 @@ namespace TrackerUI
             this.selectTeamMemberLabel.AutoSize = true;
             this.selectTeamMemberLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.selectTeamMemberLabel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.selectTeamMemberLabel.Location = new System.Drawing.Point(12, 217);
+            this.selectTeamMemberLabel.Location = new System.Drawing.Point(12, 178);
             this.selectTeamMemberLabel.Name = "selectTeamMemberLabel";
             this.selectTeamMemberLabel.Size = new System.Drawing.Size(266, 37);
             this.selectTeamMemberLabel.TabIndex = 17;
@@ -107,9 +109,11 @@ namespace TrackerUI
             // 
             // addNewMember
             // 
+            this.addNewMember.Controls.Add(this.lastNameValue);
+            this.addNewMember.Controls.Add(this.lastNameLabel);
             this.addNewMember.Controls.Add(this.firstNameValue);
             this.addNewMember.Controls.Add(this.firstNameLabel);
-            this.addNewMember.Location = new System.Drawing.Point(12, 399);
+            this.addNewMember.Location = new System.Drawing.Point(12, 360);
             this.addNewMember.Name = "addNewMember";
             this.addNewMember.Size = new System.Drawing.Size(418, 173);
             this.addNewMember.TabIndex = 20;
@@ -120,7 +124,7 @@ namespace TrackerUI
             // 
             this.firstNameValue.Location = new System.Drawing.Point(181, 34);
             this.firstNameValue.Name = "firstNameValue";
-            this.firstNameValue.Size = new System.Drawing.Size(147, 35);
+            this.firstNameValue.Size = new System.Drawing.Size(216, 35);
             this.firstNameValue.TabIndex = 22;
             // 
             // firstNameLabel
@@ -134,12 +138,30 @@ namespace TrackerUI
             this.firstNameLabel.TabIndex = 21;
             this.firstNameLabel.Text = "First Name";
             // 
+            // lastNameValue
+            // 
+            this.lastNameValue.Location = new System.Drawing.Point(181, 85);
+            this.lastNameValue.Name = "lastNameValue";
+            this.lastNameValue.Size = new System.Drawing.Size(216, 35);
+            this.lastNameValue.TabIndex = 24;
+            // 
+            // lastNameLabel
+            // 
+            this.lastNameLabel.AutoSize = true;
+            this.lastNameLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lastNameLabel.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lastNameLabel.Location = new System.Drawing.Point(6, 82);
+            this.lastNameLabel.Name = "lastNameLabel";
+            this.lastNameLabel.Size = new System.Drawing.Size(142, 37);
+            this.lastNameLabel.TabIndex = 23;
+            this.lastNameLabel.Text = "Last Name";
+            // 
             // CreateTeamForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(528, 599);
+            this.ClientSize = new System.Drawing.Size(528, 653);
             this.Controls.Add(this.addNewMember);
             this.Controls.Add(this.addMemberButton);
             this.Controls.Add(this.selectTeamMemberDropdown);
@@ -169,5 +191,7 @@ namespace TrackerUI
         private System.Windows.Forms.GroupBox addNewMember;
         private System.Windows.Forms.TextBox firstNameValue;
         private System.Windows.Forms.Label firstNameLabel;
+        private System.Windows.Forms.TextBox lastNameValue;
+        private System.Windows.Forms.Label lastNameLabel;
     }
 }
