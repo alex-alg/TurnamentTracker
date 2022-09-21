@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\TurnamentTracker\\TurnamentTracker\\TrackerUI\\TrackerUI.csproj": {}
+    "C:\\dev\\projects\\TurnamentTracker\\TrackerUI\\TrackerUI.csproj": {}
   },
   "projects": {
-    "C:\\dev\\TurnamentTracker\\TurnamentTracker\\TrackerLibrary\\TrackerLibrary.csproj": {
+    "C:\\dev\\projects\\TurnamentTracker\\TrackerLibrary\\TrackerLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\TurnamentTracker\\TurnamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
+        "projectUniqueName": "C:\\dev\\projects\\TurnamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
         "projectName": "TrackerLibrary",
-        "projectPath": "C:\\dev\\TurnamentTracker\\TurnamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
-        "packagesPath": "C:\\Users\\ALG-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\TurnamentTracker\\TurnamentTracker\\TrackerLibrary\\obj\\",
+        "projectPath": "C:\\dev\\projects\\TurnamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
+        "packagesPath": "C:\\Users\\ALG\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\projects\\TurnamentTracker\\TrackerLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ALG-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +42,24 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Intercom.Dotnet.Client": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,21 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\dev\\TurnamentTracker\\TurnamentTracker\\TrackerUI\\TrackerUI.csproj": {
+    "C:\\dev\\projects\\TurnamentTracker\\TrackerUI\\TrackerUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\TurnamentTracker\\TurnamentTracker\\TrackerUI\\TrackerUI.csproj",
+        "projectUniqueName": "C:\\dev\\projects\\TurnamentTracker\\TrackerUI\\TrackerUI.csproj",
         "projectName": "TrackerUI",
-        "projectPath": "C:\\dev\\TurnamentTracker\\TurnamentTracker\\TrackerUI\\TrackerUI.csproj",
-        "packagesPath": "C:\\Users\\ALG-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\TurnamentTracker\\TurnamentTracker\\TrackerUI\\obj\\",
+        "projectPath": "C:\\dev\\projects\\TurnamentTracker\\TrackerUI\\TrackerUI.csproj",
+        "packagesPath": "C:\\Users\\ALG\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\projects\\TurnamentTracker\\TrackerUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ALG-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +106,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\dev\\TurnamentTracker\\TurnamentTracker\\TrackerLibrary\\TrackerLibrary.csproj": {
-                "projectPath": "C:\\dev\\TurnamentTracker\\TurnamentTracker\\TrackerLibrary\\TrackerLibrary.csproj"
+              "C:\\dev\\projects\\TurnamentTracker\\TrackerLibrary\\TrackerLibrary.csproj": {
+                "projectPath": "C:\\dev\\projects\\TurnamentTracker\\TrackerLibrary\\TrackerLibrary.csproj"
               }
             }
           }
@@ -115,7 +139,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

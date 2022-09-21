@@ -8,3 +8,13 @@ C:\dev\TurnamentTracker\TurnamentTracker\TrackerLibrary\obj\Debug\netcoreapp3.1\
 C:\dev\TurnamentTracker\TurnamentTracker\TrackerLibrary\obj\Debug\netcoreapp3.1\TrackerLibrary.csproj.CoreCompileInputs.cache
 C:\dev\TurnamentTracker\TurnamentTracker\TrackerLibrary\obj\Debug\netcoreapp3.1\TrackerLibrary.dll
 C:\dev\TurnamentTracker\TurnamentTracker\TrackerLibrary\obj\Debug\netcoreapp3.1\TrackerLibrary.pdb
+C:\dev\projects\TurnamentTracker\TrackerLibrary\bin\Debug\netcoreapp3.1\TrackerLibrary.deps.json
+C:\dev\projects\TurnamentTracker\TrackerLibrary\bin\Debug\netcoreapp3.1\TrackerLibrary.dll
+C:\dev\projects\TurnamentTracker\TrackerLibrary\bin\Debug\netcoreapp3.1\TrackerLibrary.pdb
+C:\dev\projects\TurnamentTracker\TrackerLibrary\obj\Debug\netcoreapp3.1\TrackerLibrary.csproj.AssemblyReference.cache
+C:\dev\projects\TurnamentTracker\TrackerLibrary\obj\Debug\netcoreapp3.1\TrackerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\projects\TurnamentTracker\TrackerLibrary\obj\Debug\netcoreapp3.1\TrackerLibrary.AssemblyInfoInputs.cache
+C:\dev\projects\TurnamentTracker\TrackerLibrary\obj\Debug\netcoreapp3.1\TrackerLibrary.AssemblyInfo.cs
+C:\dev\projects\TurnamentTracker\TrackerLibrary\obj\Debug\netcoreapp3.1\TrackerLibrary.csproj.CoreCompileInputs.cache
+C:\dev\projects\TurnamentTracker\TrackerLibrary\obj\Debug\netcoreapp3.1\TrackerLibrary.dll
+C:\dev\projects\TurnamentTracker\TrackerLibrary\obj\Debug\netcoreapp3.1\TrackerLibrary.pdb
