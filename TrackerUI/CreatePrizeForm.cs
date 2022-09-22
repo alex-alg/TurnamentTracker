@@ -35,7 +35,7 @@ namespace TrackerUI
                 prizeAmountValue.Text = "0";
                 prizePercentageValue.Text = "0";
             }
-            else 
+            else
             {
                 MessageBox.Show("not valid form");
             }
