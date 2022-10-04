@@ -53,7 +53,7 @@ namespace TrackerUI
             this.headerLabel.Name = "headerLabel";
             this.headerLabel.Size = new System.Drawing.Size(119, 30);
             this.headerLabel.TabIndex = 0;
-            this.headerLabel.Text = "Turnament:";
+            this.headerLabel.Text = "Tournament:";
             // 
             // turnamentName
             // 
@@ -214,7 +214,7 @@ namespace TrackerUI
             this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "TurnamentViewerForm";
-            this.Text = "Turnament Viewer";
+            this.Text = "Tournament Viewer";
             this.ResumeLayout(false);
             this.PerformLayout();
 

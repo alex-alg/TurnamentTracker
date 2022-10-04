@@ -1,7 +1,7 @@
 ﻿
 namespace TrackerUI
 {
-    partial class CreateTurnamentForm
+    partial class CreateTournamentForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace TrackerUI
         private void InitializeComponent()
         {
             this.createTurnamentLabel = new System.Windows.Forms.Label();
-            this.turnamentNameValue = new System.Windows.Forms.TextBox();
+            this.tournamentNameValue = new System.Windows.Forms.TextBox();
             this.turnamentNameLabel = new System.Windows.Forms.Label();
             this.entryFeeValue = new System.Windows.Forms.TextBox();
             this.entryFeeLabel = new System.Windows.Forms.Label();
@@ -39,13 +39,13 @@ namespace TrackerUI
             this.createNewTeamLink = new System.Windows.Forms.LinkLabel();
             this.addTeamButton = new System.Windows.Forms.Button();
             this.createPrizeButton = new System.Windows.Forms.Button();
-            this.turnamentTeamsListBox = new System.Windows.Forms.ListBox();
+            this.tournamentTeamsListBox = new System.Windows.Forms.ListBox();
             this.playsList = new System.Windows.Forms.Label();
             this.removeSelectedPlayersButton = new System.Windows.Forms.Button();
             this.removeSelectedPrizeButton = new System.Windows.Forms.Button();
             this.prizesLabel = new System.Windows.Forms.Label();
             this.prizesListBox = new System.Windows.Forms.ListBox();
-            this.createTurnamentButton = new System.Windows.Forms.Button();
+            this.createTournamentButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // createTurnamentLabel
@@ -55,16 +55,16 @@ namespace TrackerUI
             this.createTurnamentLabel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.createTurnamentLabel.Location = new System.Drawing.Point(32, 39);
             this.createTurnamentLabel.Name = "createTurnamentLabel";
-            this.createTurnamentLabel.Size = new System.Drawing.Size(324, 50);
+            this.createTurnamentLabel.Size = new System.Drawing.Size(346, 50);
             this.createTurnamentLabel.TabIndex = 1;
-            this.createTurnamentLabel.Text = "Create Turnament:";
+            this.createTurnamentLabel.Text = "Create Tournament:";
             // 
-            // turnamentNameValue
+            // tournamentNameValue
             // 
-            this.turnamentNameValue.Location = new System.Drawing.Point(32, 161);
-            this.turnamentNameValue.Name = "turnamentNameValue";
-            this.turnamentNameValue.Size = new System.Drawing.Size(223, 23);
-            this.turnamentNameValue.TabIndex = 10;
+            this.tournamentNameValue.Location = new System.Drawing.Point(32, 161);
+            this.tournamentNameValue.Name = "tournamentNameValue";
+            this.tournamentNameValue.Size = new System.Drawing.Size(223, 23);
+            this.tournamentNameValue.TabIndex = 10;
             // 
             // turnamentNameLabel
             // 
@@ -74,9 +74,9 @@ namespace TrackerUI
             this.turnamentNameLabel.Location = new System.Drawing.Point(32, 121);
             this.turnamentNameLabel.Name = "turnamentNameLabel";
             this.turnamentNameLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.turnamentNameLabel.Size = new System.Drawing.Size(223, 37);
+            this.turnamentNameLabel.Size = new System.Drawing.Size(239, 37);
             this.turnamentNameLabel.TabIndex = 9;
-            this.turnamentNameLabel.Text = "Turnament Name";
+            this.turnamentNameLabel.Text = "Tournament Name";
             // 
             // entryFeeValue
             // 
@@ -159,15 +159,15 @@ namespace TrackerUI
             this.createPrizeButton.UseVisualStyleBackColor = true;
             this.createPrizeButton.Click += new System.EventHandler(this.createPrizeButton_Click);
             // 
-            // turnamentTeamsListBox
+            // tournamentTeamsListBox
             // 
-            this.turnamentTeamsListBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.turnamentTeamsListBox.FormattingEnabled = true;
-            this.turnamentTeamsListBox.ItemHeight = 15;
-            this.turnamentTeamsListBox.Location = new System.Drawing.Point(337, 161);
-            this.turnamentTeamsListBox.Name = "turnamentTeamsListBox";
-            this.turnamentTeamsListBox.Size = new System.Drawing.Size(293, 167);
-            this.turnamentTeamsListBox.TabIndex = 18;
+            this.tournamentTeamsListBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tournamentTeamsListBox.FormattingEnabled = true;
+            this.tournamentTeamsListBox.ItemHeight = 15;
+            this.tournamentTeamsListBox.Location = new System.Drawing.Point(337, 161);
+            this.tournamentTeamsListBox.Name = "tournamentTeamsListBox";
+            this.tournamentTeamsListBox.Size = new System.Drawing.Size(293, 167);
+            this.tournamentTeamsListBox.TabIndex = 18;
             // 
             // playsList
             // 
@@ -235,33 +235,34 @@ namespace TrackerUI
             this.prizesListBox.Size = new System.Drawing.Size(293, 167);
             this.prizesListBox.TabIndex = 21;
             // 
-            // createTurnamentButton
+            // createTournamentButton
             // 
-            this.createTurnamentButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.createTurnamentButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.createTurnamentButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.createTurnamentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.createTurnamentButton.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.createTurnamentButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
-            this.createTurnamentButton.Location = new System.Drawing.Point(287, 605);
-            this.createTurnamentButton.Name = "createTurnamentButton";
-            this.createTurnamentButton.Size = new System.Drawing.Size(221, 44);
-            this.createTurnamentButton.TabIndex = 24;
-            this.createTurnamentButton.Text = "Create Turnament";
-            this.createTurnamentButton.UseVisualStyleBackColor = true;
+            this.createTournamentButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.createTournamentButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.createTournamentButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.createTournamentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.createTournamentButton.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.createTournamentButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
+            this.createTournamentButton.Location = new System.Drawing.Point(287, 605);
+            this.createTournamentButton.Name = "createTournamentButton";
+            this.createTournamentButton.Size = new System.Drawing.Size(221, 44);
+            this.createTournamentButton.TabIndex = 24;
+            this.createTournamentButton.Text = "Create Tournament";
+            this.createTournamentButton.UseVisualStyleBackColor = true;
+            this.createTournamentButton.Click += new System.EventHandler(this.createTournamentButton_Click);
             // 
-            // CreateTurnamentForm
+            // CreateTournamentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(829, 661);
-            this.Controls.Add(this.createTurnamentButton);
+            this.Controls.Add(this.createTournamentButton);
             this.Controls.Add(this.removeSelectedPrizeButton);
             this.Controls.Add(this.prizesLabel);
             this.Controls.Add(this.prizesListBox);
             this.Controls.Add(this.removeSelectedPlayersButton);
             this.Controls.Add(this.playsList);
-            this.Controls.Add(this.turnamentTeamsListBox);
+            this.Controls.Add(this.tournamentTeamsListBox);
             this.Controls.Add(this.createPrizeButton);
             this.Controls.Add(this.addTeamButton);
             this.Controls.Add(this.createNewTeamLink);
@@ -269,10 +270,10 @@ namespace TrackerUI
             this.Controls.Add(this.selectTeamLabel);
             this.Controls.Add(this.entryFeeValue);
             this.Controls.Add(this.entryFeeLabel);
-            this.Controls.Add(this.turnamentNameValue);
+            this.Controls.Add(this.tournamentNameValue);
             this.Controls.Add(this.turnamentNameLabel);
             this.Controls.Add(this.createTurnamentLabel);
-            this.Name = "CreateTurnamentForm";
+            this.Name = "CreateTournamentForm";
             this.Text = "CreateTurnamentForm";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -282,7 +283,7 @@ namespace TrackerUI
         #endregion
 
         private System.Windows.Forms.Label createTurnamentLabel;
-        private System.Windows.Forms.TextBox turnamentNameValue;
+        private System.Windows.Forms.TextBox tournamentNameValue;
         private System.Windows.Forms.Label turnamentNameLabel;
         private System.Windows.Forms.TextBox entryFeeValue;
         private System.Windows.Forms.Label entryFeeLabel;
@@ -291,12 +292,12 @@ namespace TrackerUI
         private System.Windows.Forms.LinkLabel createNewTeamLink;
         private System.Windows.Forms.Button addTeamButton;
         private System.Windows.Forms.Button createPrizeButton;
-        private System.Windows.Forms.ListBox turnamentTeamsListBox;
+        private System.Windows.Forms.ListBox tournamentTeamsListBox;
         private System.Windows.Forms.Label playsList;
         private System.Windows.Forms.Button removeSelectedPlayersButton;
         private System.Windows.Forms.Button removeSelectedPrizeButton;
         private System.Windows.Forms.Label prizesLabel;
         private System.Windows.Forms.ListBox prizesListBox;
-        private System.Windows.Forms.Button createTurnamentButton;
+        private System.Windows.Forms.Button createTournamentButton;
     }
 }

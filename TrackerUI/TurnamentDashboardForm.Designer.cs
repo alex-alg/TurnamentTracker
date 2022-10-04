@@ -64,7 +64,7 @@ namespace TrackerUI
             this.loadExistingTurnamentLabel.Name = "loadExistingTurnamentLabel";
             this.loadExistingTurnamentLabel.Size = new System.Drawing.Size(309, 37);
             this.loadExistingTurnamentLabel.TabIndex = 15;
-            this.loadExistingTurnamentLabel.Text = "Load Existing Turnament";
+            this.loadExistingTurnamentLabel.Text = "Load Existing Tournament";
             // 
             // loadTurnamentButton
             // 
@@ -78,7 +78,7 @@ namespace TrackerUI
             this.loadTurnamentButton.Name = "loadTurnamentButton";
             this.loadTurnamentButton.Size = new System.Drawing.Size(221, 44);
             this.loadTurnamentButton.TabIndex = 26;
-            this.loadTurnamentButton.Text = "Load Turnament";
+            this.loadTurnamentButton.Text = "Load Tournament";
             this.loadTurnamentButton.UseVisualStyleBackColor = true;
             // 
             // createTurnamentButton
@@ -93,7 +93,7 @@ namespace TrackerUI
             this.createTurnamentButton.Name = "createTurnamentButton";
             this.createTurnamentButton.Size = new System.Drawing.Size(221, 44);
             this.createTurnamentButton.TabIndex = 27;
-            this.createTurnamentButton.Text = "Create Turnament";
+            this.createTurnamentButton.Text = "Create Tournament";
             this.createTurnamentButton.UseVisualStyleBackColor = true;
             // 
             // TurnamentDashboardForm
@@ -111,7 +111,7 @@ namespace TrackerUI
             this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "TurnamentDashboardForm";
-            this.Text = "Turnament Dashboard";
+            this.Text = "Tournament Dashboard";
             this.ResumeLayout(false);
             this.PerformLayout();
 
