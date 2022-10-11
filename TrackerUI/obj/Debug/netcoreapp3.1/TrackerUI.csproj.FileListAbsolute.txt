@@ -32,7 +32,6 @@ C:\dev\projects\TurnamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerLibrar
 C:\dev\projects\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.csproj.AssemblyReference.cache
 C:\dev\projects\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreatePrizeForm.resources
 C:\dev\projects\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreateTeamForm.resources
-C:\dev\projects\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreateTurnamentForm.resources
 C:\dev\projects\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.TurnamentDashboardForm.resources
 C:\dev\projects\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.TurnamentViewerForm.resources
 C:\dev\projects\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.csproj.GenerateResource.cache
@@ -69,3 +68,4 @@ C:\dev\projects\TurnamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\runtimes\win\
 C:\dev\projects\TurnamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\dev\projects\TurnamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\dev\projects\TurnamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+C:\dev\projects\TurnamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreateTournamentForm.resources
